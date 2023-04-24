@@ -77,7 +77,7 @@ $(function() {
 });
 
 
-
+//カンマ付与関数
 function comma(num){
   var str = num.toString().split('.');
   if (str[0].length >= 4) {
